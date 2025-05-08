@@ -3,8 +3,8 @@ class Pybritive < Formula
 
   desc "Britive Python CLI"
   homepage "https://github.com/britive/python-cli"
-  url "https://files.pythonhosted.org/packages/6e/e3/716f9921bae967cd1138e280edb299c31eef6ae62ae2f9cf01c855d37622/pybritive-2.1.4.tar.gz"
-  sha256 "a28e06f0665681d474ae2441baa5ebde92ab5d63c04b150d82b9e227ca1a668f"
+  url "https://files.pythonhosted.org/packages/a8/8f/236de5a07761fbb55d5cf84003ff0b83006fd04fc8a2a3ae73700d618c25/pybritive-2.2.0.tar.gz"
+  sha256 "3858860faddb8bb5b5184df8114d11cac4b994dad6de66db3c8d507f20bef67e"
   license "MIT"
 
   depends_on "rust" => :build
