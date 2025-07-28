@@ -3,21 +3,21 @@ class Pybritive < Formula
 
   desc "Britive Python CLI"
   homepage "https://github.com/britive/python-cli"
-  url "https://files.pythonhosted.org/packages/48/1b/6f58340beccf8ed0872cf40e437c567bbee9b212c434430263b74202a810/pybritive-2.2.1.tar.gz"
-  sha256 "29afa06f999c244d898fad79337308d265003034591fbb8dd90b65dfb2ea7212"
+  url "https://test-files.pythonhosted.org/packages/84/45/2532e9996e67b4e8be6abe940c2d352c53f12c01f5e01cf81a8f5529669f/pybritive-2.2.2.tar.gz"
+  sha256 "6125595e5a6e7dcdc11b188f01bb2c7bd16ef897c133ae57008627af0b27c830"
   license "MIT"
 
   depends_on "rust" => :build
   depends_on "python@3.12"
 
   resource "britive" do
-    url "https://files.pythonhosted.org/packages/12/22/ea4d2837fa9b1cb33dfa7849785bfab7b34ebf70e98b4991bd5bf9a8b061/britive-4.1.3.tar.gz"
-    sha256 "ef1cdf13e36bee6d3322bda2e1bb82f2564e1251396d99159a1f38125e7ebce8"
+    url "https://files.pythonhosted.org/packages/1e/b7/e412c07d3bef2287f4597622f10df6f40382e837b49f6a2a5717d8f83de6/britive-4.3.0.tar.gz"
+    sha256 "5692316b8ad3f7e88bf6887f86c34fba57103b4b5ab5543d2681d8bc7a2dfc47"
   end
 
   resource "certifi" do
-    url "https://files.pythonhosted.org/packages/e8/9e/c05b3920a3b7d20d3d3310465f50348e5b3694f4f88c6daf736eef3024c4/certifi-2025.4.26.tar.gz"
-    sha256 "0a816057ea3cdefcef70270d2c515e4506bbc954f417fa5ade2021213bb8f0c6"
+    url "https://files.pythonhosted.org/packages/b3/76/52c535bcebe74590f296d6c77c86dabf761c41980e1347a2422e4aa2ae41/certifi-2025.7.14.tar.gz"
+    sha256 "8ea99dbdfaaf2ba2f9bac77b9249ef62ec5218e7c2b2e903378ed5fccf765995"
   end
 
   resource "cffi" do
@@ -26,13 +26,13 @@ class Pybritive < Formula
   end
 
   resource "charset-normalizer" do
-    url "https://files.pythonhosted.org/packages/16/b0/572805e227f01586461c80e0fd25d65a2115599cc9dad142fee4b747c357/charset_normalizer-3.4.1.tar.gz"
-    sha256 "44251f18cd68a75b56585dd00dae26183e102cd5e0f9f1466e6df5da2ed64ea3"
+    url "https://files.pythonhosted.org/packages/e4/33/89c2ced2b67d1c2a61c19c6751aa8902d46ce3dacb23600a283619f5a12d/charset_normalizer-3.4.2.tar.gz"
+    sha256 "5baececa9ecba31eff645232d59845c07aa030f0c81ee70184a90d35099a0e63"
   end
 
   resource "click" do
-    url "https://files.pythonhosted.org/packages/b9/2e/0090cbf739cee7d23781ad4b89a9894a41538e4fcf4c31dcdd705b78eb8b/click-8.1.8.tar.gz"
-    sha256 "ed53c9d8990d83c2a27deae68e4ee337473f6330c040a31d4225c9574d16096a"
+    url "https://files.pythonhosted.org/packages/60/6c/8ca2efa64cf75a977a0d7fac081354553ebe483345c734fb6b6515d96bbc/click-8.2.1.tar.gz"
+    sha256 "27c491cc05d968d271d5a1db13e3b5a184636d9d930f148c50b038f0d0646202"
   end
 
   resource "colored" do
@@ -41,8 +41,8 @@ class Pybritive < Formula
   end
 
   resource "cryptography" do
-    url "https://files.pythonhosted.org/packages/cd/25/4ce80c78963834b8a9fd1cc1266be5ed8d1840785c0f2e1b73b8d128d505/cryptography-44.0.2.tar.gz"
-    sha256 "c63454aa261a0cf0c5b4718349629793e9e634993538db841165b3df74f37ec0"
+    url "https://files.pythonhosted.org/packages/95/1e/49527ac611af559665f71cbb8f92b332b5ec9c6fbc4e88b0f8e92f5e85df/cryptography-45.0.5.tar.gz"
+    sha256 "72e76caa004ab63accdf26023fccd1d087f6d90ec6048ff33ad0445abf7f605a"
   end
 
   resource "idna" do
@@ -81,8 +81,8 @@ class Pybritive < Formula
   end
 
   resource "requests" do
-    url "https://files.pythonhosted.org/packages/63/70/2bf7780ad2d390a8d301ad0b550f1581eadbd9a20f896afe06353c2a2913/requests-2.32.3.tar.gz"
-    sha256 "55365417734eb18255590a9ff9eb97e9e1da868d4ccd6402399eaf68af20a760"
+    url "https://files.pythonhosted.org/packages/e1/0a/929373653770d8a0d7ea76c37de6e41f11eb07559b103b1c02cafb3f7cf8/requests-2.32.4.tar.gz"
+    sha256 "27d0316682c8a29834d3264820024b62a36942083d52caf2f14c0591336d3422"
   end
 
   resource "six" do
@@ -101,8 +101,8 @@ class Pybritive < Formula
   end
 
   resource "urllib3" do
-    url "https://files.pythonhosted.org/packages/8a/78/16493d9c386d8e60e442a35feac5e00f0913c0f4b7c217c11e8ec2ff53e0/urllib3-2.4.0.tar.gz"
-    sha256 "414bc6535b787febd7567804cc015fee39daab8ad86268f1310a9250697de466"
+    url "https://files.pythonhosted.org/packages/15/22/9ee70a2574a4f4599c47dd506532914ce044817c7752a79b6a51286319bc/urllib3-2.5.0.tar.gz"
+    sha256 "3fc47733c7e419d4bc3f6b3dc2b4f890bb743906a30d56ba4a5bfa4bbff92760"
   end
 
   def install
