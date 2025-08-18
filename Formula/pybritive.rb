@@ -3,21 +3,21 @@ class Pybritive < Formula
 
   desc "Britive Python CLI"
   homepage "https://github.com/britive/python-cli"
-  url "https://test-files.pythonhosted.org/packages/84/45/2532e9996e67b4e8be6abe940c2d352c53f12c01f5e01cf81a8f5529669f/pybritive-2.2.2.tar.gz"
-  sha256 "6125595e5a6e7dcdc11b188f01bb2c7bd16ef897c133ae57008627af0b27c830"
+  url "https://files.pythonhosted.org/packages/12/aa/8665823f36e56f5dbc7f815f56b9511e799c4acc56a8aab3483d09be1d72/pybritive-2.2.3.tar.gz"
+  sha256 "1ee2438aea2f1f580e264bb1d608b924dbf82d18113d771f0a029b1f4cc46b65"
   license "MIT"
 
   depends_on "rust" => :build
   depends_on "python@3.12"
 
   resource "britive" do
-    url "https://files.pythonhosted.org/packages/1e/b7/e412c07d3bef2287f4597622f10df6f40382e837b49f6a2a5717d8f83de6/britive-4.3.0.tar.gz"
-    sha256 "5692316b8ad3f7e88bf6887f86c34fba57103b4b5ab5543d2681d8bc7a2dfc47"
+    url "https://files.pythonhosted.org/packages/e7/61/153f9603f66d32a5612948e7daabc1ff0e8dc555e5b03c0be7d51c65600c/britive-4.3.1.tar.gz"
+    sha256 "4f40db02524c95b0c8b4c8a8b63a1ff8468034129f7c6550a6368d19d6093fc1"
   end
 
   resource "certifi" do
-    url "https://files.pythonhosted.org/packages/b3/76/52c535bcebe74590f296d6c77c86dabf761c41980e1347a2422e4aa2ae41/certifi-2025.7.14.tar.gz"
-    sha256 "8ea99dbdfaaf2ba2f9bac77b9249ef62ec5218e7c2b2e903378ed5fccf765995"
+    url "https://files.pythonhosted.org/packages/dc/67/960ebe6bf230a96cda2e0abcf73af550ec4f090005363542f0765df162e0/certifi-2025.8.3.tar.gz"
+    sha256 "e564105f78ded564e3ae7c923924435e1daa7463faeab5bb932bc53ffae63407"
   end
 
   resource "cffi" do
@@ -26,8 +26,8 @@ class Pybritive < Formula
   end
 
   resource "charset-normalizer" do
-    url "https://files.pythonhosted.org/packages/e4/33/89c2ced2b67d1c2a61c19c6751aa8902d46ce3dacb23600a283619f5a12d/charset_normalizer-3.4.2.tar.gz"
-    sha256 "5baececa9ecba31eff645232d59845c07aa030f0c81ee70184a90d35099a0e63"
+    url "https://files.pythonhosted.org/packages/83/2d/5fd176ceb9b2fc619e63405525573493ca23441330fcdaee6bef9460e924/charset_normalizer-3.4.3.tar.gz"
+    sha256 "6fce4b8500244f6fcb71465d4a4930d132ba9ab8e71a7859e6a5d59851068d14"
   end
 
   resource "click" do
@@ -36,13 +36,13 @@ class Pybritive < Formula
   end
 
   resource "colored" do
-    url "https://files.pythonhosted.org/packages/b0/01/04aa2e928233863ddf91b35d8f9c0ae40714394afac01fa76ba4eb2f0182/colored-2.3.0.tar.gz"
-    sha256 "4daf9b3ed687a01d59005e1bd03f354475226b933abb9a01836d6dde926d4c6f"
+    url "https://files.pythonhosted.org/packages/4a/32/b772def12071faf780dd14e8a95ec8eba4bf5934f302de3a3780b919859a/colored-2.3.1.tar.gz"
+    sha256 "fe6e888e12dc16643daa0b108f785df6d0b48420084b5d0a567de27bb09a14d8"
   end
 
   resource "cryptography" do
-    url "https://files.pythonhosted.org/packages/95/1e/49527ac611af559665f71cbb8f92b332b5ec9c6fbc4e88b0f8e92f5e85df/cryptography-45.0.5.tar.gz"
-    sha256 "72e76caa004ab63accdf26023fccd1d087f6d90ec6048ff33ad0445abf7f605a"
+    url "https://files.pythonhosted.org/packages/d6/0d/d13399c94234ee8f3df384819dc67e0c5ce215fb751d567a55a1f4b028c7/cryptography-45.0.6.tar.gz"
+    sha256 "5c966c732cf6e4a276ce83b6e4c729edda2df6929083a952cc7da973c539c719"
   end
 
   resource "idna" do
